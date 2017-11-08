@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaswing;
+package JavaSwing2;
+import graficas.*;
 import javax.swing.*;
-import java.awt.*;
+import java.awt.*
+        
 /**
  *
  * @author LAB03
  */
-public class JavaSwing {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class JavaSwing2 extends JFrame
+{
+    JPanel mipanel;//Creacion de objeto JPanel
+    JLabel milabel;
+    JTextField mitexto;
+    JButton miboton; 
 }
