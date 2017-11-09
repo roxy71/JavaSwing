@@ -18,4 +18,15 @@ public class JavaSwing2 extends JFrame
     JLabel milabel;
     JTextField mitexto;
     JButton miboton; 
+    
+      public JavaSwing2()
+      {
+          
+           mipanel = new JPanel();//Creamos el objeto
+        milabel = new JLabel();
+        mitexto = new JTextField(20);//20 son los caracteres
+        miboton = new JButton();
+          
+      }
+              
 }
