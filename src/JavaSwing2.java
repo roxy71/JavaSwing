@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaSwing2;
-import graficas.*;
+//package JavaSwing2;
+//import graficas.*;
 import javax.swing.*;
-import java.awt.*
+import java.awt.*;
         
 /**
  *
@@ -27,6 +27,11 @@ public class JavaSwing2 extends JFrame
         mitexto = new JTextField(20);//20 son los caracteres
         miboton = new JButton();
           
+        
+        public JavaSwing2()//Tiene el mismo nombre de la clase
+        {
+            
+        }
       }
               
 }
