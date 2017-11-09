@@ -1,3 +1,5 @@
+package javaswing2;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -17,7 +19,9 @@ public class JavaSwing2 extends JFrame
     JPanel mipanel;//Creacion de objeto JPanel
     JLabel milabel;
     JTextField mitexto;
-    JButton miboton; 
+    JButton miboton;
+    JRadioButton radio;
+    JCheckBox caja;
     
       public JavaSwing2()
       {
@@ -26,6 +30,8 @@ public class JavaSwing2 extends JFrame
         milabel = new JLabel();
         mitexto = new JTextField(20);//20 son los caracteres
         miboton = new JButton();
+        radio =  new JRadioButton();
+        caja =   new JCheckBox();
           
         
         
@@ -33,11 +39,14 @@ public class JavaSwing2 extends JFrame
            this.add(mipanel);//Agrego el JPanel al JFrame
         mipanel.add(milabel);//Agrego los elementos al JPanel
         mipanel.add(mitexto);
-        mipanel.add(miboton);  
+        mipanel.add(miboton); 
+        mipanel.add(caja);
+        mipanel.add(radio);
         
-        milabel.setText("campo");
-        miboton.setText("presioname");
+        milabel.setText("Nombre");
+        miboton.setText("Enviar");
         mipanel.setBackground(Color.red);
+        
         }
       }
               
