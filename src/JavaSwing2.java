@@ -28,10 +28,17 @@ public class JavaSwing2 extends JFrame
         miboton = new JButton();
           
         
-        public JavaSwing2()//Tiene el mismo nombre de la clase
-        {
-            
+        
+        
+           this.add(mipanel);//Agrego el JPanel al JFrame
+        mipanel.add(milabel);//Agrego los elementos al JPanel
+        mipanel.add(mitexto);
+        mipanel.add(miboton);  
+        
+        milabel.setText("campo");
+        miboton.setText("presioname");
+        mipanel.setBackground(Color.red);
         }
       }
               
-}
+

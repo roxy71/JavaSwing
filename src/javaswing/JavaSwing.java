@@ -6,6 +6,8 @@
 package javaswing;
 import javax.swing.*;
 import java.awt.*;
+
+import gui.JavaSwing2;
 /**
  *
  * @author LAB03
@@ -15,8 +17,14 @@ public class JavaSwing {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+    {
+        JavaSwing2 ventana = new JavaSwing2();//Creamos un objeto tipo JFrame
+        ventana.setVisible(true);//Esta sentencia muestra la ventana
+        ventana.setBounds(0, 0, 600, 800);//Le asignamos tamaño a la ventana
+        ventana.setTitle("Mi primera aplicacion con ventanas");
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Esta sentencia  cierra la ventana
+    }
     }
     
 }
